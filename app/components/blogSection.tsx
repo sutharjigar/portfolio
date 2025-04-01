@@ -19,7 +19,9 @@ export default function BlogSection() {
     };
   }, []);
 
-  const toggleMenu = (e) => {
+  const toggleMenu = (
+    e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>
+  ) => {
     e.preventDefault();
     setIsOpen(!isOpen);
   };
