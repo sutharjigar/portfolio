@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ProfileImage from "../images/x.jpeg";
 
 export default function Profile() {
   return (
@@ -8,7 +7,7 @@ export default function Profile() {
         width="120"
         height="200"
         decoding="async"
-        src={ProfileImage}
+        src="../x.jpeg"
         loading="lazy"
         alt="Profile"
         className="rounded-full object-cover w-[90px] h-[90px]"

@@ -1,7 +1,4 @@
 import Image from "next/image";
-import githubLogo from "../images/github.png";
-import twitterLogo from "../images/twitter.png"
-import linkedLogo from "../images/linkedin.png";
 
 export default function Social() {
   return (
@@ -19,7 +16,7 @@ export default function Social() {
             height="22"
             decoding="async"
             data-nimg="1"
-            src={twitterLogo}
+            src="../twitter.png"
             style={{ color: "transparent" }}
             className="mt-1 "
           />
@@ -36,7 +33,7 @@ export default function Social() {
             height="22"
             decoding="async"
             data-nimg="1"
-            src={githubLogo}
+            src="../github.png"
             style={{ color: "transparent" }}
             className="ml-1"
           />
@@ -53,7 +50,7 @@ export default function Social() {
             height="22"
             decoding="async"
             data-nimg="1"
-            src={linkedLogo}
+            src="../linkedin.png"
             style={{ color: "transparent" }}
             className="mt-0.5 ml-1"
           />

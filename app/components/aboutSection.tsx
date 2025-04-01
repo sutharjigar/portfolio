@@ -1,11 +1,7 @@
 "use client"
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import close from "../images/close.svg"
 import Image from "next/image";
-import next from "../images/next.svg";
-import react from "../images/react.svg";
-import js from "../images/js.svg";
 import Link from "next/link";
 
 export default function AboutSection() {
@@ -138,7 +134,7 @@ export default function AboutSection() {
                             className="border p-1 rounded-lg  hover:bg-slate-100"
                           >
                             <Image
-                              src={close}
+                              src="./close.svg"
                               width={15}
                               height={15}
                               alt="close"
@@ -152,14 +148,14 @@ export default function AboutSection() {
                           Technologies Used
                         </motion.h5>
                         <motion.div className="flex justify-between items-center mx-5">
-                          <Image src={js} height={50} width={50} alt="Tech" />
+                          <Image src="./js.svg" height={50} width={50} alt="Tech" />
                           <Image
-                            src={react}
+                            src="./react.svg"
                             height={50}
                             width={50}
                             alt="Tech"
                           />
-                          <Image src={next} height={50} width={50} alt="Tech" />
+                          <Image src="./next.svg" height={50} width={50} alt="Tech" />
                         </motion.div>
                         <div className="flex justify-center items-center mx-auto mt-4">
                           <Link
@@ -202,7 +198,7 @@ export default function AboutSection() {
                             className="border p-2 rounded-lg hover:bg-slate-100"
                           >
                             <Image
-                              src={close}
+                              src="./close.svg"
                               width={15}
                               height={15}
                               alt="close"
@@ -220,14 +216,14 @@ export default function AboutSection() {
                           Technologies Used
                         </motion.h5>
                         <motion.div className="flex flex-wrap justify-center gap-3 mt-3">
-                          <Image src={js} height={40} width={40} alt="Tech" />
+                          <Image src="./js.svg" height={40} width={40} alt="Tech" />
                           <Image
-                            src={react}
+                            src="./react.svg"
                             height={40}
                             width={40}
                             alt="Tech"
                           />
-                          <Image src={next} height={40} width={40} alt="Tech" />
+                          <Image src="./next.svg" height={40} width={40} alt="Tech" />
                         </motion.div>
 
                         {/* Buttons */}
