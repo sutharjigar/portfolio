@@ -1,4 +1,4 @@
-"use server";
+// "use server";
 
 import BlogSection from "../components/blogSection";
 import Common from "../components/common";
