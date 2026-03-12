@@ -9,8 +9,7 @@ import { BookOpen, ArrowUpRight, Calendar, Clock, Rss, Loader2 } from "lucide-re
 
 const MEDIUM_USERNAME = "sutharjigar348";
 const MEDIUM_RSS = `https://medium.com/feed/@${MEDIUM_USERNAME}`;
-const CORS_PROXY = `https://corsproxy.io/?url=${encodeURIComponent(MEDIUM_RSS)}`;
-
+const CORS_PROXY = `https://api.allorigins.win/raw?url=${encodeURIComponent(MEDIUM_RSS)}`;
 interface MediumPost {
   title: string;
   link: string;

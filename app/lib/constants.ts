@@ -3,7 +3,7 @@
 export const MEDIUM_USERNAME = "sutharjigar348";
 export const MEDIUM_RSS_URL = `https://medium.com/feed/@${MEDIUM_USERNAME}`;
 export const MEDIUM_PROFILE_URL = `https://medium.com/@${MEDIUM_USERNAME}`;
-export const MEDIUM_CORS_PROXY = `https://corsproxy.io/?url=${encodeURIComponent(MEDIUM_RSS_URL)}`;
+export const MEDIUM_CORS_PROXY = `https://api.allorigins.win/raw?url=${encodeURIComponent(MEDIUM_RSS_URL)}`;
 
 export const LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/jigar-suthar-267300206/";
 export const LINKEDIN_MESSAGING_NAME = "jigar-suthar-267300206";
